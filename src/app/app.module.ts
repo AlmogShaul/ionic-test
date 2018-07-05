@@ -6,14 +6,18 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {MatChipsModule} from "@angular/material";
+import {ChipListCmp} from "./chip-list/chip-list";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    ChipListCmp
   ],
   imports: [
     BrowserModule,
+    MatChipsModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],

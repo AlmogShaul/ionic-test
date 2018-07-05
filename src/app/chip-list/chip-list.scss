@@ -1,0 +1,15 @@
+
+.chip-md {
+    color: white;
+  margin:0px 2px
+}
+
+.selected {
+  color: white;
+  background: orange;
+}
+
+
+.chip-md{
+  transition: background 0.5s ease;
+}
